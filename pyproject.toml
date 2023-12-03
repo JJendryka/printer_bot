@@ -8,7 +8,7 @@ version = "0.0.0"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 scripts = {printer_bot = "printer_bot.main:main"}
-dependencies = ["pillow==9.*", "brother_ql"]
+dependencies = ["pillow==9.*", "brother_ql", "python-telegram-bot"]
 
 [project.optional-dependencies]
 dev = ["mypy", "ruff", "black"]
